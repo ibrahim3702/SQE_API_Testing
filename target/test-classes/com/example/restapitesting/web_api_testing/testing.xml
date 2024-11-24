@@ -1,0 +1,15 @@
+<suite name="API Test Suite">
+	<listeners>
+		<listener class-name="io.qameta.allure.testng.AllureTestNg" />
+	</listeners>
+	<test name="API Tests">
+		<classes>
+			<class name="com.example.restapitesting.web_api_testing.DeleteTests" />
+			<class name="com.example.restapitesting.web_api_testing.GetTests" />
+			<class
+				name="com.example.restapitesting.web_api_testing.PerformanceTestCases" />
+			<class name="com.example.restapitesting.web_api_testing.PostTest" />
+			<class name="com.example.restapitesting.web_api_testing.PutTests" />
+		</classes>
+	</test>
+</suite>
